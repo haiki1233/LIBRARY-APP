@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da10085c-80b8-405c-87f5-4ae59fdee350" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/library-mobile/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/AndroidProjectSystem.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/deviceManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/androidTest/java/com/example/library_mobile/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/java/com/example/library_mobile/FirstFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/java/com/example/library_mobile/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/java/com/example/library_mobile/SecondFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/layout/fragment_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values-land/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values-v23/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values-w1240dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values-w600dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/test/java/com/example/library_mobile/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/library-mobile/settings.gradle.kts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "haiki1233"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/haiki1233/LIBRARY-APP.git",
+    "accountId": "123c304d-b695-4539-a013-13e2ab75b619"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3Cr2WHJljubxgWoy7eYOvYyMyBh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\LIBRARY-APP" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da10085c-80b8-405c-87f5-4ae59fdee350" name="Changes" comment="" />
+      <created>1777129397273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777129397273</updated>
+    </task>
+    <servers />
+  </component>
+</project>
