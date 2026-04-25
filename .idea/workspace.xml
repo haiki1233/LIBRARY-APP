@@ -4,66 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da10085c-80b8-405c-87f5-4ae59fdee350" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/library-mobile/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/AndroidProjectSystem.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/deviceManager.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/androidTest/java/com/example/library_mobile/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/java/com/example/library_mobile/FirstFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/java/com/example/library_mobile/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/java/com/example/library_mobile/SecondFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/layout/fragment_second.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values-land/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values-v23/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values-w1240dp/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values-w600dp/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/app/src/test/java/com/example/library_mobile/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/library-mobile/settings.gradle.kts" afterDir="false" />
-    </list>
+    <list default="true" id="da10085c-80b8-405c-87f5-4ae59fdee350" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
