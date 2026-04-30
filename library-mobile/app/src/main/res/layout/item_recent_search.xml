@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingVertical="10dp"
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_history"
+        app:tint="@color/on_surface_dim"
+        android:contentDescription="@null" /> <!-- Icon trang trí nên để @null -->
+
+    <TextView
+        android:id="@+id/tv_keyword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/on_surface"
+        android:textSize="14sp"
+        tools:text="Từ khóa tìm kiếm mẫu"/>
+
+    <ImageButton
+        android:id="@+id/btn_delete"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/ic_close"
+        app:tint="@color/on_surface_dim"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/desc_delete_search"/> <!-- Cần mô tả để người khiếm thị biết đây là nút xóa -->
+
+</LinearLayout>
