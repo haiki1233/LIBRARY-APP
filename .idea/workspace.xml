@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da10085c-80b8-405c-87f5-4ae59fdee350" name="Changes" comment="" />
+    <list default="true" id="da10085c-80b8-405c-87f5-4ae59fdee350" name="Changes" comment="init: create Android project with Kotlin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

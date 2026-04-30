@@ -1,4 +1,67 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TruyenHay" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Auth screens style -->
+    <style name="TextAppearance.TruyenHay.Title" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">@color/on_background</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <style name="TextAppearance.TruyenHay.Subtitle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/on_surface_dim</item>
+    </style>
+
+    <style name="TextAppearance.TruyenHay.Label" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/on_surface_dim</item>
+    </style>
+
+    <!-- TextInputLayout style -->
+    <style name="Widget.TruyenHay.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/surface_light</item>
+        <item name="boxStrokeColor">@color/divider</item>
+        <item name="boxStrokeWidth">1.5dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="hintTextColor">@color/on_surface_dim</item>
+        <item name="android:textColorHint">@color/on_surface_dim</item>
+        <item name="errorTextColor">@color/error</item>
+        <item name="errorIconTint">@color/error</item>
+    </style>
+
+    <!-- Primary Button style -->
+    <style name="Widget.TruyenHay.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:textColor">@color/on_background</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:minHeight">56dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="backgroundTint">@null</item>
+        <item name="rippleColor">@color/primary_dark</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- Text Button style -->
+    <style name="Widget.TruyenHay.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="rippleColor">@color/primary_glow</item>
+    </style>
     <!-- Base application theme. -->
     <style name="Base.Theme.Librarymobile" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
