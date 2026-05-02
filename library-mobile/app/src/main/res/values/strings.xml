@@ -115,4 +115,16 @@
     <string name="font_family">Aa Font</string>
     <string name="text_mode_placeholder_header">[Chế độ Text]\n\nChapter %1$d: %2$s\n\n</string>
     <string name="text_mode_placeholder_body">Chapter này sử dụng ảnh. Để đọc dạng text, vui lòng kết hợp với OCR hoặc thêm trường content vào API.</string>
+    <string name="back">Back</string>
+    <string name="favorite_title">❤️ Yêu thích</string>
+    <string name="sort">Sắp xếp</string>
+    <string name="swipe_hint">← Vuốt trái để bỏ</string>
+
+
+
+    <string name="empty_emoji">🫶</string>
+    <string name="empty_title">Chưa có truyện yêu thích</string>
+    <string name="empty_desc">Nhấn ❤️ trên trang chi tiết truyện để thêm vào đây</string>
+    <string name="explore">Khám phá truyện</string>
+
 </resources>

@@ -23,6 +23,7 @@ import com.example.library_mobile.ui.adapter.BannerAdapter
 import com.example.library_mobile.ui.adapter.SearchAdapter
 import com.example.library_mobile.ui.adapter.StoryGridAdapter
 import com.example.library_mobile.ui.adapter.StoryHorizontalAdapter
+import com.example.library_mobile.ui.favorite.FavoriteActivity
 import com.example.library_mobile.ui.search.SearchActivity
 import com.example.library_mobile.utils.AppModule
 import com.example.library_mobile.utils.Result
@@ -212,8 +213,8 @@ class HomeActivity : AppCompatActivity() {
                     false
                 }
                 R.id.nav_favorite -> {
-                    // TODO: Navigate to FavoriteActivity
-                    true
+                    startActivity(Intent(this, FavoriteActivity::class.java))
+                    false
                 }
                 R.id.nav_history -> {
                     // TODO: Navigate to HistoryActivity

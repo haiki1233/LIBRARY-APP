@@ -41,5 +41,9 @@
             android:name=".ui.reading.ReadingActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".ui.favorite.FavoriteActivity"
+            android:exported="false" />
+
     </application>
 </manifest>
