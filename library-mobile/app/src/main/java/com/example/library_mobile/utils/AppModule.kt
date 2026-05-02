@@ -5,6 +5,7 @@ import com.example.library_mobile.data.local.TokenManager
 import com.example.library_mobile.data.remote.RetrofitClient
 import com.example.library_mobile.data.remote.api.AuthApiService
 import com.example.library_mobile.data.remote.api.FavoriteApiService
+import com.example.library_mobile.data.remote.api.HistoryApiService
 import com.example.library_mobile.data.remote.api.ReadingApiService
 import com.example.library_mobile.data.remote.api.SearchApiService
 import com.example.library_mobile.data.remote.api.StoryApiService
@@ -62,5 +63,11 @@ object AppModule {
         val tm      = provideTokenManager(context)
         val retrofit = RetrofitClient.createRetrofit(tm)
         return retrofit.create(FavoriteApiService::class.java)
+    }
+
+    fun provideHistoryApiService(context: Context): HistoryApiService {
+        val tm      = provideTokenManager(context)
+        val retrofit = RetrofitClient.createRetrofit(tm)
+        return retrofit.create(HistoryApiService::class.java)
     }
 }

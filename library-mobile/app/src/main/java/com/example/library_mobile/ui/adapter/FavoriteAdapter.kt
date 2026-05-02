@@ -1,7 +1,11 @@
 package com.example.library_mobile.ui.adapter
 
+import android.graphics.Canvas
+import android.graphics.Color
+import android.graphics.Paint
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.ListAdapter
@@ -101,13 +105,13 @@ class FavoriteAdapter(
 
             // Vẽ background đỏ + icon thùng rác khi swipe
             override fun onChildDraw(
-                c: android.graphics.Canvas, recyclerView: RecyclerView,
+                c: Canvas, recyclerView: RecyclerView,
                 viewHolder: RecyclerView.ViewHolder, dX: Float, dY: Float,
                 actionState: Int, isCurrentlyActive: Boolean
             ) {
                 val itemView = viewHolder.itemView
-                val paint    = android.graphics.Paint().apply {
-                    color = android.graphics.Color.parseColor("#FF5252")
+                val paint    = Paint().apply {
+                    color = Color.parseColor("#FF5252")
                 }
                 val iconMargin = 32
 
@@ -119,11 +123,11 @@ class FavoriteAdapter(
                         paint
                     )
                     // Trash icon
-                    val icon = androidx.core.content.ContextCompat.getDrawable(
+                    val icon = ContextCompat.getDrawable(
                         recyclerView.context, R.drawable.ic_delete
                     )
                     icon?.let {
-                        it.setTint(android.graphics.Color.WHITE)
+                        it.setTint(Color.WHITE)
                         val iconTop    = itemView.top + (itemView.height - it.intrinsicHeight) / 2
                         val iconRight  = itemView.right - iconMargin
                         val iconLeft   = iconRight - it.intrinsicWidth
