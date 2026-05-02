@@ -303,12 +303,11 @@ class StoryDetailActivity : AppCompatActivity() {
 
     // ===== NAVIGATION =====
     private fun navigateToReader(chapter: ChapterSummaryDto) {
-        // TODO: Navigate to ReadingActivity
-        Toast.makeText(
-            this,
-            getString(R.string.chapter_title_format, chapter.chapterNumber, chapter.title),
-            Toast.LENGTH_SHORT
-        ).show()
+        val intent = Intent(this, com.example.library_mobile.ui.reading.ReadingActivity::class.java).apply {
+            putExtra(com.example.library_mobile.ui.reading.ReadingActivity.EXTRA_CHAPTER_ID, chapter.id)
+            putExtra(com.example.library_mobile.ui.reading.ReadingActivity.EXTRA_STORY_ID, storyId)
+        }
+        startActivity(intent)
     }
 
     // ===== HELPERS =====

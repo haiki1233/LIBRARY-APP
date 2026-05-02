@@ -100,4 +100,19 @@
     <string name="btn_continue_reading">▶ Đọc tiếp</string>
 
     <string name="label_reading">• Đang đọc</string>
+
+    <!-- Reading UI -->
+    <string name="loading_chapter">Đang tải chapter...</string>
+    <string name="btn_prev_chapter">◀ Trước</string>
+    <string name="btn_next_chapter">Tiếp ▶</string>
+    <string name="progress_format">Trang %1$d / %2$d</string>
+    <string name="read_mode">Chế độ đọc</string>
+    <string name="mode_image">📷 Ảnh</string>
+    <string name="mode_text">📝 Text</string>
+    <string name="dark_mode">🌙 Dark mode</string>
+    <string name="font_size">🔤 Cỡ chữ</string>
+    <string name="line_spacing">↕ Giãn dòng</string>
+    <string name="font_family">Aa Font</string>
+    <string name="text_mode_placeholder_header">[Chế độ Text]\n\nChapter %1$d: %2$s\n\n</string>
+    <string name="text_mode_placeholder_body">Chapter này sử dụng ảnh. Để đọc dạng text, vui lòng kết hợp với OCR hoặc thêm trường content vào API.</string>
 </resources>

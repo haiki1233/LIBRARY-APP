@@ -4,6 +4,7 @@ import android.content.Context
 import com.example.library_mobile.data.local.TokenManager
 import com.example.library_mobile.data.remote.RetrofitClient
 import com.example.library_mobile.data.remote.api.AuthApiService
+import com.example.library_mobile.data.remote.api.ReadingApiService
 import com.example.library_mobile.data.remote.api.SearchApiService
 import com.example.library_mobile.data.remote.api.StoryApiService
 import com.example.library_mobile.data.remote.api.StoryDetailApiService
@@ -48,5 +49,11 @@ object AppModule {
         val tm      = provideTokenManager(context)
         val retrofit = RetrofitClient.createRetrofit(tm)
         return retrofit.create(StoryDetailApiService::class.java)
+    }
+
+    fun provideReadingApiService(context: Context): ReadingApiService {
+        val tm      = provideTokenManager(context)
+        val retrofit = RetrofitClient.createRetrofit(tm)
+        return retrofit.create(ReadingApiService::class.java)
     }
 }

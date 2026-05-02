@@ -31,4 +31,13 @@
     <color name="text_gray">#9CA3AF</color>
     <color name="black">#000000</color>
 
+    <!-- Reading screen colors -->
+    <color name="reading_bg_dark">#111118</color>
+    <color name="reading_bg_light">#F5F5F0</color>
+    <color name="reading_bg_sepia">#F4ECD8</color>
+    <color name="reading_text_dark">#E8E8F0</color>
+    <color name="reading_text_light">#1A1A2E</color>
+    <color name="reading_text_sepia">#3D2B1F</color>
+    <color name="reading_toolbar_bg">#E61E1E2E</color>
+
 </resources>
